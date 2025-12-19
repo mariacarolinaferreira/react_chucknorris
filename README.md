@@ -1,16 +1,65 @@
-# React + Vite
+# react_chucknorris
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida em **React + Vite** como atividade prática da disciplina **Frontend Frameworks**.
 
-Currently, two official plugins are available:
+O projeto consome **três APIs públicas**, exibindo informações de forma organizada em diferentes telas, com navegação entre páginas e um menu superior fixo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎯 Objetivo do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Desenvolver uma aplicação React utilizando Vite com foco em:
+- Consumo de APIs REST públicas
+- Organização de componentes
+- Navegação entre telas
+- Boas práticas de versionamento com GitHub
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Funcionalidades
+
+- 🐱 Avatar dinâmico de gato no menu superior
+- 🌐 Exibição de informações do navegador do usuário
+- 😂 Frase aleatória do Chuck Norris
+- 👤 Tela Sobre com informações do desenvolvedor
+
+---
+
+## 🔌 APIs Utilizadas
+
+- **Cataas (Avatar do Gato)**  
+  https://cataas.com/cat
+
+- **CAgent (Informações do Navegador)**  
+  https://www.apicagent.com/
+
+- **Chuck Norris API**  
+  https://api.chucknorris.io/jokes/random
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- React Router DOM
+- Git e GitHub
+
+---
+
+## ▶️ Como executar o projeto localmente
+
+### Pré-requisitos:
+- Node.js versão 20.x
+- Git
+
+### Passos:
+
+```bash
+git clone https://github.com/mariacarolinaferreira/react_chucknorris.git
+cd react_chucknorris
+npm install
+npm run dev
