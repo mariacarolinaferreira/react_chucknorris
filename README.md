@@ -56,6 +56,15 @@ Desenvolver uma aplicação React utilizando Vite com foco em:
 - Node.js versão 20.x
 - Git
 
+## 🖼️ Prints da Aplicação
+
+### Tela – Informações do Navegador
+![Tela Informações do Navegador](prints/navegador.png)
+
+### Tela – Chuck Norris
+![Tela Chuck Norris](prints/chucknorris.png)
+
+
 ### Passos:
 
 ```bash
