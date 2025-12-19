@@ -1,0 +1,81 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da aplicação */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding: 10px 20px;
+}
+
+.header nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Avatar do gato */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Conteúdo central */
+.card {
+  background-color: #ffffff;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Títulos */
+.card h2 {
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+/* Textos */
+.card p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* Imagem do Chuck e avatar */
+.card img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+/* Links */
+.card a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
